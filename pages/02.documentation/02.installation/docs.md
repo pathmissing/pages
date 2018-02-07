@@ -57,7 +57,7 @@ If you are on a Debian system you might also try our `.deb` repository:
 
 ```
 root@debian:~# echo "deb http://deb.appserver.io/ wheezy main" > /etc/apt/sources.list.d/appserver.list
-root@debian:~# wget http://deb.appserver.io/appserver.gpg -O - | apt-key add -
+root@debian:~# wget https://deb.appserver.io/appserver.gpg -O - | apt-key add -
 root@debian:~# aptitude update
 root@debian:~# aptitude install appserver-dist
 ```
